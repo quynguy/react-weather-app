@@ -22,7 +22,7 @@ export const WeatherApp = () => {
         {
             return 0;
         }
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Imperial&appid=${api_key}`;
         
         let response = await fetch(url);
         let data = await response.json();
@@ -32,8 +32,8 @@ export const WeatherApp = () => {
         const location = document.getElementsByClassName("weather-location");
 
         humidity[0].innerHTML = data.main.humidity+" %";
-        wind[0].innerHTML = Math.floor(data.wind.speed)+" km/h";
-        temperature[0].innerHTML = Math.floor(data.main.temp)+" °c";
+        wind[0].innerHTML = Math.floor(data.wind.speed)+" m/h";
+        temperature[0].innerHTML = Math.floor(data.main.temp)+" °f";
         location[0].innerHTML = data.name;
 
         if(data.weather[0].icon==="01d" || data.weather[0].icon==="01n") 
@@ -84,21 +84,21 @@ export const WeatherApp = () => {
             <img src={wicon} alt="" className="icon"/>
         </div>
         
-        <div className="weather-temp">24°c</div>
+        <div className="weather-temp">24°F</div>
         <div className="weather-location">Fort Worth, Texas</div>
         <div className="data-container">
             <div className="element">
                 <img src={humidity_icon} alt="" className="icon" />
                 <div className="data">
                     <div className="humidity-percentage">50%</div>
-                    <div className="text">humidity</div>
+                    <div className="text">Humidity</div>
                 </div>
             </div>
 
             <div className="element">
                 <img src={wind_icon} alt="" className="icon" />
                 <div className="data">
-                    <div className="wind-rate">18 km/h</div>
+                    <div className="wind-rate">18 m/h</div>
                     <div className="text">Wind Speed</div>
                 </div>
             </div>
