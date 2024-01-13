@@ -33,7 +33,7 @@ export const WeatherApp = () => {
 
         humidity[0].innerHTML = data.main.humidity+" %";
         wind[0].innerHTML = Math.floor(data.wind.speed)+" m/h";
-        temperature[0].innerHTML = Math.floor(data.main.temp)+" °f";
+        temperature[0].innerHTML = Math.floor(data.main.temp)+" °F";
         location[0].innerHTML = data.name;
 
         if(data.weather[0].icon==="01d" || data.weather[0].icon==="01n") 
@@ -84,7 +84,7 @@ export const WeatherApp = () => {
             <img src={wicon} alt="" className="icon"/>
         </div>
         
-        <div className="weather-temp">24°F</div>
+        <div className="weather-temp">🌡</div>
         <div className="weather-location">Fort Worth, Texas</div>
         <div className="data-container">
             <div className="element">
