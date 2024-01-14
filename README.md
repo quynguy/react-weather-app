@@ -1,82 +1,17 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Weather App created by quynguy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A basic weather application developed with React, HTML, CSS, and JavaScript, utilizing the OpenWeatherMap API. An excellent exercise for gaining proficiency in React.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# react-weather-app
-
-This application is a straightforward weather app that utilizes the OpenWeatherMap API.
-![image](https://github.com/quynguy/react-weather-app/assets/106893103/7ec3094d-011f-4142-b9bd-b055a6c283e9)
+Deployed on Netlify: <Br>
+Check it out here -> <br>
+https://65a326ae3ee3e114fcfcbe8b--splendorous-gelato-e4c3f6.netlify.app/
 
 
-Developed using React, CSS, and JavaScript.
+Preview: <br>
+Before Search
+<br>
+![image](https://github.com/quynguy/react-weather-app/assets/106893103/2761dbe9-6a39-47a1-a435-e69af40b8a4a)
 
+After Search <br>
+![image](https://github.com/quynguy/react-weather-app/assets/106893103/45e43b17-05ce-4ad4-ba00-7ff244b673a4)
 
->>>>>>> 2735f1a022978892f27ef16765c0623fc569a7dc
